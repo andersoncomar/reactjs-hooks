@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Hooks
 
-## Available Scripts
+Projeto exemplificando o desenvolvimento em ReactJS aplicando suporte ao Hooks.
 
-In the project directory, you can run:
+## O que é [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)?
 
-### `npm start`
+Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Sem Quebras de Compatibilidade
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+##### Antes de continuar, note que Hooks são:
 
-### `npm test`
+Completamente opcionais. Você pode experimentar Hooks em alguns componentes sem reescrever nenhum código existente. Mas você não tem que aprender ou usar Hooks agora se não quiser.
+100% retrocompatíveis. Hooks não possuem nenhuma quebra de compatibilidade.
+Disponível agora. Hooks estão disponíveis no release v16.8.0.
+Não temos planos de remover classes do React. Você pode aprender mais sobre a estratégia de adoção gradual para Hooks na seção inferior desta página.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Hooks não substituem seu conhecimento dos conceitos de React. Ao invés disso, Hooks provêem uma API mais direta para os conceitos de React que você já conhece: props, state, context, refs e ciclo de vida. Como iremos mostrar em breve, Hooks também oferecem uma poderosa nova forma de combiná-los.
 
-### `npm run build`
+Se você só quiser começar a aprender Hooks, sinta-se livre para pular direto para a próxima página! Você também pode continuar lendo esta página para aprender mais sobre o porquê de estarmos adicionando Hooks e como nós iremos começar a usá-los sem reescrever nossas aplicações.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Ferramentas de análise de código estático:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Style Guide utilizada:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
